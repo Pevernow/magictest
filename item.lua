@@ -125,7 +125,7 @@ minetest.register_abm(
 				"%\n"..S("Tin")..":" .. string.format("%.2f", meta:get_float("tin")) ..  
 				"%\n"..S("Mese crystal")..":" .. string.format("%.2f", meta:get_float("mese_crystal")) ..
 				"%\n"..S("Diamond")..":" .. string.format("%.2f", meta:get_float("diamond")) ..
-				"%\n"..S("Mese")..":" .. string.format("%.2f", meta:get_float("mese")) ..
+				"%\n"..S("Mese")..":" .. string.format("%.2f", meta:get_float("mese"))
 			)
 		end
 	}
